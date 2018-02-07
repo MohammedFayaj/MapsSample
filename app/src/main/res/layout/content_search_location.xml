@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fayaj.maps.app.maps.search.SearchLocationActivity"
+    tools:showIn="@layout/app_bar_search_location">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:minHeight="60dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_weight="0.9"
+            >
+
+            <EditText
+                android:id="@+id/et_search_source"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/rounded_edit_text"
+                android:hint=" Choose Source"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:textColorHint="#585656" />
+
+            <EditText
+                android:id="@+id/et_search_destination"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/rounded_edit_text"
+                android:hint=" Choose Destination"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:textColorHint="#585656" />
+        </LinearLayout>
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:background="@drawable/go_button"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

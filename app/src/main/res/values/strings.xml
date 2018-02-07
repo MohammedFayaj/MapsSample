@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Maps</string>
+    <!--<string name="heremaps_appid">249B2zbU6KXahLJ4FZ1C</string>-->
+    <!--<string name="heremaps_appcode">rSVhrxnH15Y3f6nYN1SkyQ</string>-->
+
+    <string name="heremaps_appid">ACeTWYMdvMlUfWjJDkK7</string>
+    <string name="heremaps_appcode">jZP52LoOTrrS5otzl97gzQ</string>
+    <string name="heremaps_applicense">A7rZ/+Uf8yDwiM2S3Gg41D4YJ1ebff7RMIOV46nAhbbYhu9nnKOVy60CcURDFwr4aFV1xI3SE+WIiTfHIfJxSvZ5FbCEXoGkCpCpuo4Q3AEwO/tZIssatm8Qnmt7SEeJ/prXrJT6dTxXqWmzzwkwUblh1cz3OXlLSZcLtT1EJzGDbJfpb1DQTiPHHWeKNtWqL9S2b+kJibAxxyTXqSyhtGDrl5YgxG9nPmvG7Ng1wB/0rLllRXayxYkaclJ2jZHx1/yv/Z4EwaLS8RRsIHIK3qMZ2pTkUBbQcM5ZyS9z2vdZA8qADGMayRhY3Q3zXH0L9IfzisAgTqo84q8mbU7NPpgGlSxEPITSM6tIYEwRQ2VSJ9L9KS/U89COGHHpMEgy0nbTQp2HfHrlN6V3HXQ3O0TpH1MZh68wdqZCvOavSu/NFFzd13IyNmQBsEl+QfN/B0e1yGlstAFjKy4Cm5Pg5mrRGS/ezwPChoEcytkqUh++38JcGilEq8mHLS3JHlW4EiiuPzC3Hhoj7VwBJ9kIb4414bAikn/xNCrje/J71V70RlCFt8NU/itqV8zSO+ra2gLyZJTagVqmL60WmIDE0hdoHkJ9qnjWKD54VDSYnESLh3Cejg3uHH46TktbVgcEnJc0VCnoNWWOHG2qxf05aPoYJCNNwKTLgFzK+BLGtk8=</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_location">SearchLocationActivity</string>
+
+
+</resources>

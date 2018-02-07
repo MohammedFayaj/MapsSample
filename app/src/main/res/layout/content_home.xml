@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fayaj.maps.app.maps.home.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <fragment
+        android:id="@+id/mapfragment"
+        class="com.here.android.mpa.mapping.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:minHeight="40dp"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_search_location"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint=" Choose Destination"
+            android:layout_weight="0.9"
+            android:textSize="14sp"
+            android:paddingLeft="20dp"
+            android:textColorHint="#757575" />
+    </LinearLayout>
+</RelativeLayout>
